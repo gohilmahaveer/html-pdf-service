@@ -1,0 +1,98 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<title>Order Form</title>
+<style>
+body {
+	font-family: Verdana, 'Helvetica Neue', Arial, sans-serif;
+	color: #333;
+	font-size: 8.9px;
+	font-weight: normal;
+	font-style: normal;
+	margin: 5px;
+}
+
+.container {
+	width: 650px;
+	overflow: hidden;
+	padding: 5px;
+	margin: auto;
+}
+
+.column-2 {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	padding: 2px 0;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.label {
+	float: left;
+	width: 49%;
+	display: table-cell;
+}
+
+.label::after {
+	content: " :";
+}
+
+.field {
+	float: left;
+	width: 98%;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.field.input {
+	border-bottom: 1px solid #c2def4;
+	color: #c2def4;
+	font-weight: normal;
+}
+
+.value {
+	float: left;
+	width: 49%;
+	display: block;
+	overflow-wrap: break-word;
+}
+
+hr {
+	clear: both;
+	border-width: 0 0 1px 0;
+	border-color: #c2def4;
+}
+
+.small {
+	font-size: 8px;
+	margin: 2px 0;
+	text-align: justify;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="row" style="text-align: center;">
+      <h2>Customer Form</h2>
+      <h3>General Information</h3>
+    </div>
+    <div class="row">
+      <div class="column-2">
+        <div class="label">Reference Number</div>
+        <div class="value">1</div>
+      </div>
+      <div class="column-2">
+        <div class="label">Name</div>
+        <div class="value">Mayur</div>
+      </div>
+    </div>
+    <hr />
+  </div>
+</body>
+</html>
